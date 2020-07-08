@@ -16,13 +16,37 @@
 
 <body>
     <main class="container">
-        <header>
-            <h1>Lista zadań</h1>
-        </header>
-        <form class="form js-form">
-            <input class="js-newTask">
+        <header>Lista zadań</header>
+        <section class="section">
+            <h2 class="section__header">Dodaj nowe zadanie</h2>
+            <div class="section__body">
+                <form class="form js-form">
+                    <input class="form__input js-newTask" placeholder="Co jest do zrobienia?">
+                    <button class="form_button">Dodaj zadanie</button>
 
-        </form>
+                </form>
+
+            </div>
+
+
+        </section>
+        <section class="section">
+            <h2 class="section__header">Lista zadań</h2>
+            <div class="section__body">
+                <ul class="task js-task">
+                    <li class="task__item js-task"></li>
+                    <button class="tasks__button tasks__button--done js-toggleDone">✔</button>
+                    <span class="tasks__content tasks__content--done">Kupić bilety</span>
+                    <button class="tasks__button tasks_button--remove js-remove">☒</button>
+                </ul>
+                <ul class="task js-task">
+                    <li class="task__item js-task"></li>
+                </ul>
+
+            </div>
+
+        </section>
+
     </main>
 
 </body>

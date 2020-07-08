@@ -9,7 +9,5 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     padding: 25px;
-    background-color: #f7f6f6;
-    display: flex;
-    justify-content: center;
+    background: #f7f6f6;
 }

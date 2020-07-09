@@ -1,6 +1,6 @@
 # Simple ToDo List
 
-A simple ToDO List created as a part of online frontend development course
+A simple ToDO List created as a part of online Frontend Developer from scratch course
 
 ## Technologies Used:
 
@@ -17,3 +17,4 @@ A simple ToDO List created as a part of online frontend development course
 
 ## Link to Demo
 
+[ToDo List - GitHub Pages](https://filipgraz.github.io/Simple-To-Do-List/)
